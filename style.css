@@ -165,6 +165,21 @@
      gap: 20px;
     }
 
+    /*Intersts Section Styling*/
+    .interests{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      justify-items: center;
+      padding: 20px;
+      margin: 10px auto;
+      gap: 20px;
+      
+    }
+
+    
+  
+
   
 
   
