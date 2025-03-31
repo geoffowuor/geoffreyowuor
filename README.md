@@ -1,4 +1,3 @@
-# Portfolio Project
 
 # Personal Portfolio Project for the PLP Hackathon 1!
  I built this  portfolio to showcase my skills, creativity, and dedication to software development. It highlights various projects, technologies, and achievements, providing a comprehensive view of my work.
