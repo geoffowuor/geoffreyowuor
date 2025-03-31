@@ -36,10 +36,14 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
+  nav li{
+    white-space: nowrap;
+  }
   
   nav ul{
      display: inline-flex;
      align-items: center;
+     flex-wrap: nowrap;
      justify-content: center;
      gap: 1rem;
      list-style: none;
@@ -49,7 +53,9 @@
    }
    nav a{
     display: inline-flex;
+    flex-wrap: nowrap;
      text-decoration: none;
+     justify-content: space-between;
      color: black;
      font-weight: 700;
      color: #00bfff;
@@ -62,6 +68,7 @@
     font-weight: 700;
     background: #0E2431;
     color: #00bfff;
+    cursor: pointer;
    }
   
   /*hero section styling*/
@@ -146,6 +153,20 @@
    .hero-section .buttons a:hover {
      background-color: skyblue;
    }
+
+   /*Education styling*/
+    .education{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     width: 80%;
+     margin: 40px auto;
+     gap: 20px;
+    }
+
+  
+
   
   /*Skills and tools styling*/
   section h2{
@@ -154,6 +175,7 @@
     letter-spacing: 0.02em;
     margin-top: 10px;
     margin-bottom: 13px;
+    text-align: center;
   }
   .skills{
     display: flex;
@@ -391,6 +413,14 @@
   }
   /*responsive designing*/
    @media screen and (max-width: 1023px) {
+    .education{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
     
      .hero-section .hero {
        max-width: 100%;
@@ -436,6 +466,13 @@
     .about .left img{
       height: 350px;
       width: 350px;
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
   }
   
